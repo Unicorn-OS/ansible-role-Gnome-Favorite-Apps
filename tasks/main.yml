@@ -1,0 +1,8 @@
+---
+- name: Set Gnome Panel Favorite-Apps
+  community.general.dconf:
+    key: "/org/gnome/shell/favorite-apps"
+    value: "{{ gnome_favorite_apps }}"
+    state: present
+
+# org.gnome.shell favorite-apps
