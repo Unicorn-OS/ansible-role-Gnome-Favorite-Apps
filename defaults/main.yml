@@ -1,5 +1,5 @@
 ---
 
-example_streaming: "['org.gnome.Terminal.desktop', 'com.obsproject.Studio.desktop', 'vlc.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop']"
+example_minimal: "['org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop']"
 
-gnome_favorite_apps: "{{ example_streaming }}"
+gnome_favorite_apps: "{{ example_minimal }}"
